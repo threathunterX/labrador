@@ -1,0 +1,436 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "values": [
+    {
+      "module": "slot",
+      "app": "nebula",
+      "name": "global__order_submit_h5_count__1h__slot",
+      "remark": "每小时H5端订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "",
+      "value_subtype": "map",
+      "value_category": "long",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "ORDER_SUBMIT"
+        }
+      ],
+      "filter": {
+        "condition": [
+          {
+            "source": "ORDER_SUBMIT",
+            "object": "platform",
+            "object_type": "string",
+            "object_subtype": "",
+            "operation": "==",
+            "value": "h5",
+            "type": "simple"
+          },
+          {
+            "source": "ORDER_SUBMIT",
+            "object": "result",
+            "object_type": "string",
+            "object_subtype": "",
+            "operation": "==",
+            "value": "T",
+            "type": "simple"
+          }
+        ],
+        "type": "and"
+      },
+      "period": {
+        "type": "hourly",
+        "value": "1"
+      },
+      "function": {
+        "method": "count",
+        "object": "",
+        "object_type": "",
+        "param": ""
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "global__order_submit_h5_count__hourly__profile",
+      "remark": "每小时H5端订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "long",
+      "value_subtype": "",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "global__order_submit_h5_count__1h__slot"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "hourly"
+      },
+      "function": {
+        "method": "last",
+        "object": "value",
+        "object_type": "map",
+        "object_subtype": "long",
+        "param": ""
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "global__order_submit_h5_sum__1d__profile",
+      "remark": "每天H5端订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "long",
+      "value_subtype": "",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "global__order_submit_h5_count__hourly__profile"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_days",
+        "value": "1"
+      },
+      "function": {
+        "method": "global_sum",
+        "object": "value",
+        "object_type": "long",
+        "param": ""
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "slot",
+      "app": "nebula",
+      "name": "global_product_location__order_submit_h5_count__1h__slot",
+      "remark": "每小时H5端酒店城市列表及其订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "mmap",
+      "value_subtype": "long",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "ORDER_SUBMIT"
+        }
+      ],
+      "filter": {
+        "condition": [
+          {
+            "source": "ORDER_SUBMIT",
+            "object": "platform",
+            "object_type": "string",
+            "object_subtype": "",
+            "operation": "==",
+            "value": "h5",
+            "type": "simple"
+          },
+          {
+            "source": "ORDER_SUBMIT",
+            "object": "result",
+            "object_type": "string",
+            "object_subtype": "",
+            "operation": "==",
+            "value": "T",
+            "type": "simple"
+          }
+        ],
+        "type": "and"
+      },
+      "period": {
+        "type": "hourly",
+        "value": "1"
+      },
+      "function": {
+        "method": "group_count",
+        "object": "product_location",
+        "object_type": "",
+        "param": ""
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "global_product_location__order_submit_h5_count__hourly__profile",
+      "remark": "每小时H5端酒店城市列表及其订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "map",
+      "value_subtype": "long",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "global_product_location__order_submit_h5_count__1h__slot"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_days"
+      },
+      "function": {
+        "method": "last",
+        "object": "value",
+        "object_type": "",
+        "param": ""
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "global_product_location__order_submit_h5_count__1d__profile",
+      "remark": "每天H5端酒店城市列表及其订单数",
+      "visible_name": "",
+      "dimension": "global",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "",
+      "value_subtype": "long",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "global_product_location__order_submit_h5_count__hourly__profile"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_days"
+      },
+      "function": {
+        "method": "global_map_merge_topn",
+        "object": "value",
+        "object_type": "",
+        "param": "3"
+      },
+      "groupbykeys": []
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "uid__order_submit_count__hourly_profile",
+      "remark": "UID每小时下单成功数",
+      "visible_name": "",
+      "dimension": "uid",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "map",
+      "value_subtype": "long",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "ORDER_SUBMIT"
+        }
+      ],
+      "filter": {
+        "object": "result",
+        "operation": "==",
+        "value": "T",
+        "type": "simple"
+      },
+      "period": {
+        "type": "hourly",
+        "value": "1"
+      },
+      "function": {
+        "method": "count",
+        "source": "ORDER_SUBMIT",
+        "object": "",
+        "object_type":"",
+        "object_subtype" : "",
+        "param" : "",
+        "config" : {}
+
+      },
+      "groupbykeys": [
+        "uid"
+      ]
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "uid__order_submit_count__1h__profile",
+      "remark": "UID过去一小时下单成功数",
+      "visible_name": "UID过去一小时下单成功数[1h]",
+      "dimension": "uid",
+      "status": "enable",
+      "type": "aggregate",
+      "value_type": "long",
+      "value_subtype": "",
+      "value_category": "",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "uid__order_submit_count__hourly_profile"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_hours",
+        "end" : -1,
+        "start": -1
+      },
+      "function": {
+        "method": "sum",
+        "object": "value",
+        "source":"uid__order_submit_count__hourly_profile",
+        "object_type":"map",
+        "object_subtype":"long",
+        "param":"",
+        "config":{}
+      },
+      "groupbykeys": [
+        "uid"
+      ]
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "uid__order_submit_distinct_merchant__1h_profile",
+      "remark": "账号下单商户按小时去重列表",
+      "dimension": "uid",
+      "value_type":"mlist",
+      "value_subtype":"string",
+      "value_category":"",
+      "visible_name": "",
+      "status": "enable",
+      "type": "aggregate",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "ORDER_SUBMIT"
+        }
+      ],
+      "filter": {
+        "object": "result",
+        "operation": "==",
+        "value": "T",
+        "type": "simple"
+      },
+      "period": {
+        "type": "hourly",
+        "value": "1"
+      },
+      "function": {
+        "method": "distinct",
+        "source":"ORDER_SUBMIT",
+        "object": "merchant",
+        "object_type":"string",
+        "param" : "",
+        "config" : {}
+      },
+      "groupbykeys": [
+        "uid"
+      ]
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "uid__order_submit_distinct_product_location__1h_profile",
+      "remark": "用户过去一小时下单不同酒店城市数",
+      "visible_name": "用户过去一小时下单不同酒店城市数[1h]",
+      "dimension" : "uid",
+      "value_type" : "long",
+      "value_subtype" : "",
+      "value_category" : "",
+      "visible_name": "",
+      "status": "enable",
+      "type": "aggregate",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "uid__order_submit_distinct_merchant__1h_profile"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_hours",
+        "end" : -1,
+        "start" : -1
+      },
+      "function": {
+        "method": "distinct_count",
+        "object": "merchant",
+        "source": "uid__order_submit_distinct_merchant__1h_profile",
+        "object_type": "mlist",
+        "object_subtype": "string",
+        "param" : "",
+        "config" : {}
+      },
+      "groupbykeys": [
+        "uid"
+      ]
+    },
+    {
+      "module": "profile",
+      "app": "nebula",
+      "name": "uid__order_submit_distinct_list_product_location__1h_profile",
+      "remark": "用户过去一小时下单不同酒店城市数",
+      "visible_name": "用户过去一小时下单不同酒店城市数[1h]",
+      "dimension" : "uid",
+      "value_type" : "list",
+      "value_subtype" : "string",
+      "value_category" : "",
+      "visible_name": "",
+      "status": "enable",
+      "type": "aggregate",
+      "source": [
+        {
+          "app": "nebula",
+          "name": "uid__order_submit_distinct_merchant__1h_profile"
+        }
+      ],
+      "filter": {
+      },
+      "period": {
+        "type": "last_n_hours",
+        "end" : -1,
+        "start" : -1
+      },
+      "function": {
+        "method": "distinct",
+        "object": "merchant",
+        "source": "uid__order_submit_distinct_merchant__1h_profile",
+        "object_type": "mlist",
+        "object_subtype": "string",
+        "param" : "",
+        "config" : {}
+      },
+      "groupbykeys": [
+        "uid"
+      ]
+    }
+  ]
+}
