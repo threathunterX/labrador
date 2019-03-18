@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Created by wanbaowang on 17/8/22.
+ * 
  * 读写互斥的hashMap
  */
 public class WriteReadMap<K, V> {

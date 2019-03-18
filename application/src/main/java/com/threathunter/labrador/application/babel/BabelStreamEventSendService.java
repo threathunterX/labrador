@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by wanbaowang on 17/11/29.
+ * 
  */
 public class BabelStreamEventSendService implements BabelService {
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/9/4.
+ * 
  */
 public class EventFieldUpdate extends BaseUpdate {
 

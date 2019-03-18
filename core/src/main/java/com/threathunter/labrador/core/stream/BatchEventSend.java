@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by wanbaowang on 17/8/25.
+ * 
  */
 public class BatchEventSend {
     private static final Logger logger = LoggerFactory.getLogger(BatchEventSend.class);

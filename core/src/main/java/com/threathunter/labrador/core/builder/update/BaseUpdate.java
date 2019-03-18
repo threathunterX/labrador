@@ -11,7 +11,7 @@ import com.threathunter.labrador.core.exception.UpdateException;
 import java.io.IOException;
 
 /**
- * Created by wanbaowang on 17/8/24.
+ * 
  */
 public abstract class BaseUpdate {
 

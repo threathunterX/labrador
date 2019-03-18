@@ -13,7 +13,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by wanbaowang on 17/11/1.
+ * 
  */
 public class Labrador {
 

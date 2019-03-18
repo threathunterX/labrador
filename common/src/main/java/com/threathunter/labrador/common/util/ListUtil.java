@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/10/27.
+ * 
  */
 public class ListUtil {
 

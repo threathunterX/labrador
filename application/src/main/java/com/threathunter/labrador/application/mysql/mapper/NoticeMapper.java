@@ -4,7 +4,7 @@ import com.threathunter.labrador.application.mysql.domain.Notice;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * Created by wanbaowang on 17/11/1.
+ * 
  */
 public interface NoticeMapper {
 

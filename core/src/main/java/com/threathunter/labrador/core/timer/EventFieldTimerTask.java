@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.TimerTask;
 
 /**
- * Created by wanbaowang on 17/9/5.
+ * 
  */
 public class EventFieldTimerTask extends TimerTask {
 

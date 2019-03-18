@@ -5,7 +5,7 @@ import com.threathunter.labrador.application.mysql.service.MysqlService;
 import com.threathunter.labrador.common.util.SpringUtils;
 
 /**
- * Created by wanbaowang on 17/10/31.
+ * 
  */
 public class UserDefinedFunctions {
 

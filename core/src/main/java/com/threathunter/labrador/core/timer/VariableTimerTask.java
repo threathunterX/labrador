@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.util.TimerTask;
 
 /**
- * Created by wanbaowang on 17/8/30.
+ * 
  */
 public class VariableTimerTask extends TimerTask {
 

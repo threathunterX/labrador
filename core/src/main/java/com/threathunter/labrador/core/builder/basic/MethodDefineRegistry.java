@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/9/6.
+ * 
  */
 public class MethodDefineRegistry {
 

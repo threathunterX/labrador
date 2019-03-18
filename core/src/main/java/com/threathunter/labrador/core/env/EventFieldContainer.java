@@ -14,7 +14,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Created by wanbaowang on 17/9/5.
+ * 
  */
 public class EventFieldContainer {
 

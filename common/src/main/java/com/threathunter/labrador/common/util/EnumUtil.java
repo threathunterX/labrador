@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/8/22.
+ * 
  * Labrador
  */
 public class EnumUtil {

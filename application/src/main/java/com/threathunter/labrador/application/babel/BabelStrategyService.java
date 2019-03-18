@@ -21,7 +21,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by wanbaowang on 17/11/28.
+ * 
  */
 public class BabelStrategyService implements BabelService {
 

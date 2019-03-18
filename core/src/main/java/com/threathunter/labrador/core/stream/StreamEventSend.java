@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by wanbaowang on 17/8/25.
+ * 
  * 实时流写入
  */
 public class StreamEventSend {

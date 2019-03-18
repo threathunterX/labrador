@@ -3,7 +3,7 @@ package com.threathunter.labrador.spl.check;
 import java.io.Serializable;
 
 /**
- * Created by wanbaowang on 17/10/25.
+ * 
  */
 public class CheckResponse  implements Serializable{
     private String expression;

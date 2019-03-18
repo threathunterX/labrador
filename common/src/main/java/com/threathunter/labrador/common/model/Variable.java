@@ -3,7 +3,7 @@ package com.threathunter.labrador.common.model;
 import com.threathunter.labrador.common.util.EnumUtil;
 
 /**
- * Created by wanbaowang on 17/8/21.
+ * 
  */
 public class Variable {
 

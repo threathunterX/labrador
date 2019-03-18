@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.TimerTask;
 
 /**
- * Created by wanbaowang on 17/11/29.
+ * 
  */
 public class StrategyTimeTask extends TimerTask {
 

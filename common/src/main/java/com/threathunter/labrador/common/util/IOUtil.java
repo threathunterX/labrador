@@ -11,7 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by wanbaowang on 16/8/31.
+ * 
  */
 public class IOUtil {
     private static final Logger logger = LoggerFactory.getLogger(IOUtil.class);

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/11/15.
+ * 
  */
 public class UserArchivesQuery extends AbstractTest {
     public static void main(String[] args) throws LabradorException {

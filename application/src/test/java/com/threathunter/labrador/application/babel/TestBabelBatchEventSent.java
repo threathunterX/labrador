@@ -12,7 +12,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 17/11/27.
+ * 
  */
 public class TestBabelBatchEventSent {
 

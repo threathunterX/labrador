@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/8/24.
+ * 
  * 变量更新
  */
 public class VariableUpdate extends BaseUpdate {

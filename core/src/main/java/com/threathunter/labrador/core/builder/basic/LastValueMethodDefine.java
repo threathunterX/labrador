@@ -4,7 +4,7 @@ import com.threathunter.labrador.common.exception.BuilderException;
 import com.threathunter.labrador.common.model.Variable;
 
 /**
- * Created by wanbaowang on 17/11/25.
+ * 
  */
 public class LastValueMethodDefine implements VariableMethodDefine{
 

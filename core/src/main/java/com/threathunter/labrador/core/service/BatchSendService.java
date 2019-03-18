@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 17/9/11.
+ * 
  */
 public class BatchSendService implements Send {
     private static final Logger logger = LoggerFactory.getLogger(BatchSendService.class);

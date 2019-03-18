@@ -1,7 +1,7 @@
 package com.threathunter.labrador.core.exception;
 
 /**
- * Created by wanbaowang on 17/8/25.
+ * 
  */
 public class DataTypeNotMatchException extends Exception {
 

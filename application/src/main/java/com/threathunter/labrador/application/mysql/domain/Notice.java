@@ -1,7 +1,7 @@
 package com.threathunter.labrador.application.mysql.domain;
 
 /**
- * Created by wanbaowang on 17/11/1.
+ * 
  */
 public class Notice {
 

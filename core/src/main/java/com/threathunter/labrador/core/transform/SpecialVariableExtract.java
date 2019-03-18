@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/9/8.
+ * 
  */
 public class SpecialVariableExtract extends Extract {
 

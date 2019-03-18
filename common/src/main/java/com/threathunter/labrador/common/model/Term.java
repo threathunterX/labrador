@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 16/10/27.
+ * 
  */
 public class Term {
 

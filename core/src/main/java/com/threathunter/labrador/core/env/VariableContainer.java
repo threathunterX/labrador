@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by wanbaowang on 17/8/22.
+ * 
  */
 public class VariableContainer {
 

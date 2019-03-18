@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/8/29.
+ * 
  */
 public class Group {
     private String setName;

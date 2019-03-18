@@ -3,7 +3,7 @@ package com.threathunter.labrador.common.util;
 import com.threathunter.config.CommonDynamicConfig;
 
 /**
- * Created by wanbaowang on 17/8/22.
+ * 
  */
 public class ConfigUtil {
     private static class ConfigUtilHolder {

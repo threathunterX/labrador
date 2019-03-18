@@ -15,7 +15,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.ArrayList;
 
 /**
- * Created by wanbaowang on 17/10/31.
+ * 
  */
 public class TestExpressionCheckService {
 

@@ -3,7 +3,7 @@ package com.threathunter.labrador.core.timer;
 import java.util.Timer;
 
 /**
- * Created by wanbaowang on 17/9/5.
+ * 
  */
 public class LabradorTimer extends Thread {
 

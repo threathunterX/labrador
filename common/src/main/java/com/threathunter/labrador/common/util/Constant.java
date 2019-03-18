@@ -1,7 +1,7 @@
 package com.threathunter.labrador.common.util;
 
 /**
- * Created by wanbaowang on 17/8/29.
+ * 
  */
 public class Constant {
 

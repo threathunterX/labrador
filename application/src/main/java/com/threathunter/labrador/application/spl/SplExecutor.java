@@ -3,7 +3,7 @@ package com.threathunter.labrador.application.spl;
 import com.threathunter.model.Event;
 
 /**
- * Created by wanbaowang on 17/11/2.
+ * 
  */
 public class SplExecutor implements Runnable {
 

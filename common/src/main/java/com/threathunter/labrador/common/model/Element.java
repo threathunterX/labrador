@@ -5,7 +5,7 @@ import com.threathunter.labrador.common.util.EnumUtil.*;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/8/21.
+ * 
  * 从运营配置中提取的Element
  */
 public class Element {

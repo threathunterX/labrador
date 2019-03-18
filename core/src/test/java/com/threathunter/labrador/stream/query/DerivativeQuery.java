@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/11/23.
+ * 
  */
 public class DerivativeQuery extends AbstractTest {
     QueryService queryService = new QueryService();

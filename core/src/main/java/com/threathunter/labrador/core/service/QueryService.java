@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 17/11/15.
+ * 
  */
 public class QueryService implements Query {
 

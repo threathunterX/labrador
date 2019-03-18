@@ -3,7 +3,7 @@ package com.threathunter.labrador.core.builder.idgenerator;
 import java.io.IOException;
 
 /**
- * Created by wanbaowang on 17/8/24.
+ * 
  */
 public interface VariableIdGenerator {
 

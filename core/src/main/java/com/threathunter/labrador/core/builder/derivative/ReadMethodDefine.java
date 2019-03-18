@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/11/23.
+ * 
  */
 public interface ReadMethodDefine {
 

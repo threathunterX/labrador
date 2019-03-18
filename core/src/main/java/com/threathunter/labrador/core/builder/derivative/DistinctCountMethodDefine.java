@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by wanbaowang on 17/11/23.
+ * 
  */
 public class DistinctCountMethodDefine implements ReadMethodDefine {
 

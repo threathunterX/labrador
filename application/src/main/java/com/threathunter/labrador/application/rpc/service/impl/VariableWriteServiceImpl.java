@@ -14,7 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/11/21.
+ * 
  */
 @RpcService(VariableWriteService.class)
 public class VariableWriteServiceImpl implements VariableWriteService {

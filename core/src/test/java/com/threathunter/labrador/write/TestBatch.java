@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/9/28.
+ * 
  */
 public class TestBatch extends AbstractTest {
 

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by wanbaowang on 17/8/30.
+ * 
  */
 public class AbstractTest {
 

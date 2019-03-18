@@ -16,7 +16,7 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 
 /**
- * Created by wanbaowang on 17/9/21.
+ * 
  */
 public class HttpUtils {
 

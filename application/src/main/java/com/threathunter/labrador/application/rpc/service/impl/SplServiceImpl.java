@@ -6,7 +6,7 @@ import com.threathunter.labrador.spl.check.CheckResponse;
 import com.threathunter.labrador.spl.check.ExpressionCheckService;
 
 /**
- * Created by wanbaowang on 17/10/30.
+ * 
  */
 @RpcService(SplService.class)
 public class SplServiceImpl implements SplService {

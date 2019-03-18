@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/9/8.
+ * 
  */
 public class RowMeta {
     private static final String NAME = "name";

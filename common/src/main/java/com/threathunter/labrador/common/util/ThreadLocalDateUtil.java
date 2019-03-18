@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 16/9/24.
+ * 
  */
 public class ThreadLocalDateUtil {
     private static final Object localObj = new Object();

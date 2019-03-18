@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by wanbaowang on 17/8/31.
+ * 
  */
 public abstract class AbstractSendEval {
     private static final Logger logger = LoggerFactory.getLogger(AbstractSendEval.class);

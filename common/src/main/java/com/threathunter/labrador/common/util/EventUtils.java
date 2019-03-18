@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 /**
- * Created by wanbaowang on 17/11/29.
+ * 
  */
 public class EventUtils {
     public static String getEventDimensionValue(Event event, String dimension) {

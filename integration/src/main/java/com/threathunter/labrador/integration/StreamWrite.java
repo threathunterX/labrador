@@ -24,7 +24,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/9/7.
+ * 
  */
 public class StreamWrite {
 

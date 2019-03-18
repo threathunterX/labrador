@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by wanbaowang on 17/11/15.
+ * 
  */
 public class QueryGroup {
     private String namespace;

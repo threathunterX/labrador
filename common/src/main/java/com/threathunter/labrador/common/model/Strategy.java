@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 17/11/2.
+ * 
  */
 public class Strategy {
     private static final Logger logger = LoggerFactory.getLogger(Strategy.class);

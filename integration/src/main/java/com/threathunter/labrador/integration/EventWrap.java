@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by wanbaowang on 17/9/8.
+ * 
  */
 public class EventWrap {
     private String variable;

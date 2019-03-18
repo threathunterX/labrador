@@ -16,7 +16,7 @@ import java.util.Map;
 import static com.aerospike.client.util.Util.sleep;
 
 /**
- * Created by wanbaowang on 17/11/16.
+ * 
  * 用户档案
  */
 public class UserArchivesWrite extends AbstractTest {

@@ -5,7 +5,7 @@ import com.threathunter.labrador.common.model.Variable;
 import com.threathunter.labrador.common.util.EnumUtil;
 
 /**
- * Created by wanbaowang on 17/9/6.
+ * 
  */
 public class LastNMethodDefine implements VariableMethodDefine {
     @Override

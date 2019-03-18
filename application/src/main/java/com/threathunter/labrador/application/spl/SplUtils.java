@@ -8,7 +8,7 @@ import com.threathunter.labrador.expression.IllegalExpressionException;
 import java.util.*;
 
 /**
- * Created by wanbaowang on 17/11/30.
+ * 
  */
 public class SplUtils {
 

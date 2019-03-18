@@ -4,7 +4,7 @@ import com.threathunter.labrador.rpc.server.RpcServer;
 import com.threathunter.labrador.rpc.util.Config;
 
 /**
- * Created by wanbaowang on 17/10/31.
+ * 
  */
 public class RpcBootstrap {
 
