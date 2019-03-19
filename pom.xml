@@ -23,7 +23,6 @@
         <module>spl</module>
         <module>application</module>
         <module>aerospike</module>
-        <!--<module>bloodhound</module>-->
     </modules>
 
     <dependencies>
